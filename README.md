@@ -5,12 +5,16 @@ of this project is on 3D rendering, camera systems, and controls rather than rea
 Contributions and improvements are welcome.
 
 
+
+
 **OVERVIEW**
 
 This project implements a basic 3D flight simulation environment featuring: Aircraft movement with simplified
 controls 3D terrain rendering Dynamic third-person camera system Keyboard and mouse-based control scheme
 Efficient real-time rendering using jMonkeyEngine Note: Realistic flight physics are not implemented. This project is
 intended as a learning and experimentation platform.
+
+
 
 
 **TECHNICAL SPECIFICATIONS**
@@ -27,6 +31,8 @@ LWJGL – OpenGL and input handling
 OpenAL – 3D audio support
 
 
+
+
 **GETTING STARTED**
 
 Prerequisites
@@ -34,9 +40,10 @@ Prerequisites
 2. Configure Java environment variables
 3. Install Apache Ant
 
-
 Running the Application
 java -jar dist/FLIGHT_SIMULATOR.jar
+
+
 
 
 **CONTROLS**
@@ -48,6 +55,8 @@ Mouse : Camera control
 ESC : Exit simulation
 
 
+
+
 **BUILDING FROM SOURCE**
 
 1. Ensure all prerequisites are installed
@@ -55,6 +64,8 @@ ESC : Exit simulation
 3. Navigate to the project root
 4. Run ant
 5. The compiled JAR will be generated in the dist directory
+
+
 
 
 **CONTRIBUTING**
